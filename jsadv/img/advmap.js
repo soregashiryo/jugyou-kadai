@@ -1,7 +1,15 @@
 let showMap =() => {
     let elem = document.querySelector('div');
     let chip = map[y][x];
+    if(chip == 'G' || chip == 'S'){
+        elem.innerHTML = '<img src="img/' + images[chip] + '.png">';
+    } else  if(chip == 'K'){
+        elem.innerHTML = '<img src="img/key.png">';
+        keyflag = true;
+        map[y][x] = '─'
+    }else{
     elem.innerHTML = '<img src="img/' + images[chip] + '.png"><img scr="img/man.png">';
+    }
 };
 
 showMap();
