@@ -7,6 +7,12 @@ let showMap =() => {
         elem.innerHTML = '<img src="img/key.png">';
         keyflag = true;
         map[y][x] = '─'
+    }else if(chip == 'D'){
+        elem.innerHTML = '<img src=src="img/door.png">';
+        if(keyflag == true){
+            map[y][x] = '─';
+            elem.innerHTML = '<img src="img/left_right.png">' + '<img src="img/man.png">';
+        }
     }else{
     elem.innerHTML = '<img src="img/' + images[chip] + '.png"><img scr="img/man.png">';
     }
