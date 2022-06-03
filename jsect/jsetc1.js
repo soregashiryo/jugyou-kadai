@@ -8,4 +8,4 @@ btn.addEventListener('click' ,() => {
   } else {
       elem.innerText = inp.value * 1.10;
   }
-} );
+  });
