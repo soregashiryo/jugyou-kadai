@@ -1,6 +1,6 @@
 let quiz = [
     ['犬','dog'],
-    ['像','elephant'],
+    ['象','elephant'],
     ['情報格差','digital divide'],
     ['ブラウザ','browser'],
     ['アカウント','account'],
