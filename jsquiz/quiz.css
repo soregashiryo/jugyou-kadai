@@ -12,7 +12,7 @@ li:nth-child(odd){
     width: 340px;
     height: 60px;
     padding: 120px 20px 20px 20px;
-
+    list-style: none;
 }
 
 li:nth-child(even){
