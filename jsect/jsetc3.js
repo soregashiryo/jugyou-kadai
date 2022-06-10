@@ -1,18 +1,18 @@
-let inp = document.querySelector('input');
 let btn = document.querySelector('button');
-let elem = document.querySelector('p2');
+let elem = document.querySelector('p');
+let mes = 100;
 
 btn.addEventListener('click' ,() => {
-    elem.innerText += MessageChannel;
+    elem.innerText += mes;
 
-    for(I=0 ; i<10 ; i+1 ){
+    for(i=0 ; i<10 ; i+1 ){
         mes += 150;
-        elem.innerText += "　⇒　"+ mes;
+        elem.innerText += "　→　"+ mes;
     }
     /*
     while(mes<10000){
         mes += 150;
-        elem.innerText += " ⇒　" + mes;
+        elem.innerText += " →　" + mes;
     }
     */
 } );
