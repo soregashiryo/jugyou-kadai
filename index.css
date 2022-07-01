@@ -6,16 +6,16 @@ div{
 
 li:nth-child(odd){
     background: url("img/animal_mizugi_set_bg.png");
-    width: 340px;
-    height: 50px;
+    width: 70px;
+    height: 25px;
     padding: 120px 20px 20px 20px;
     list-style: none;
 }
 
 li:nth-child(even){
 background: url("img/animal_mizugi_set_bg.png");
-width: 340px;
-height: 60px;
+width: 70px;
+height: 30px;
 padding: 140px 20px 10px 20px ;
 list-style: none;
 }
