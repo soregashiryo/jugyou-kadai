@@ -8,7 +8,7 @@ li:nth-child(odd){
     background: url("img/onepiece05_sanji.png");
     width: 200px;
     height: 50px;
-    padding: 120px 20px 20px 20px;
+    padding: 60px 20px 20px 20px;
     list-style: none;
 }
 
@@ -16,6 +16,6 @@ li:nth-child(even){
 background: url("img/onepiece05_sanji.png");
 width: 200px;
 height: 60px;
-padding: 140px 20px 10px 20px ;
+padding: 70px 20px 10px 20px ;
 list-style: none;
 }
