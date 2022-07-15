@@ -9,3 +9,8 @@ div{
 img{
     position: absolute;
 }
+ul{
+    background: #ffffff;
+    width: 800px;
+    margin: auto;
+}
