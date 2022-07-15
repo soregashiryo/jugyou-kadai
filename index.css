@@ -1,21 +1,21 @@
 div{
-    width: 500px;
+    width: 700px;
     margin: auto;
 }
 
 
 li:nth-child(odd){
     background: url("img/onepiece05_sanji.png");
-    width: 500px;
-    height: 400px;
-    padding: 100px 50px 100px 50px;
+    width: 600px;
+    height: 360px;
+    padding: 120px 20px 20px 20px;
     list-style: none;
 }
 
 li:nth-child(even){
 background: url("img/onepiece02_zoro_bandana.png");
-width: 500px;
-height: 200px;
-padding: 200px 100px 100px 100px ;
+width: 600px;
+height: 360px;
+padding: 140px 20px 10px 20px ;
 list-style: none;
 }
