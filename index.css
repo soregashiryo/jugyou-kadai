@@ -14,7 +14,7 @@ li:nth-child(odd){
 
 li:nth-child(even){
     background: url("img/envelope_airmail.png");
-    width: px;
+    width: 120px;
     height: 120px;
     padding: 120px 20px 10px 20px;
     list-style: none;
