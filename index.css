@@ -1,10 +1,10 @@
 div{
-    width: 600px;
+    width: 700px;
     margin: auto;
 }
 
 input{
-  margin-left:140px;
+  margin-left:100px;
 }
 
 li:nth-child(odd){
