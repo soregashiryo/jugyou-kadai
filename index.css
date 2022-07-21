@@ -13,6 +13,8 @@ li:nth-child(odd){
     width: 350px;
     height: 190px;
     padding: 190px 20px 20px 20px;
+    font-size: 25px;
+    text-align: 30px;
     list-style: none;
 }
 
@@ -21,5 +23,7 @@ li:nth-child(even){
     width: 350px;
     height: 190px;
     padding: 190px 20px 20px 20px;
+    font-size: 25px;
+    text-align: 30px;
     list-style: none;
 }
