@@ -4,29 +4,21 @@ div{
 }
 
 input{
-    margin-left: 140px;
+  margin-left:140px:  
 }
 
 li:nth-child(odd){
-
-    background: url("img/shigoto_zaitaku_cat_man.png";
-    background-position:60% 40%;
-    background-size: cover;
-    width: 500px;
-    height: 100px;
-    padding: 80px 50px 50px 50px;
-
+    background: url("img/shigoto_zaitaku_cat_man.png");
+    width: 300px;
+    height: 28px;
+    padding: 120px 20px 20px 20px;
     list-style: none;
 }
 
 li:nth-child(even){
-
     background: url("img/shigoto_zaitaku_cat_woman.png");
-    background-position:  50% 50%;
-    background-size: cover;
-    width: 500px;
-    height: 100px;
-    padding: 80px 50px 50px 80px;
-    
+    width: 300px;
+    height: 28px;
+    padding: 120px 20px 10px 20px;
     list-style: none;
 }
