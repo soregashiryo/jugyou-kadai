@@ -18,7 +18,7 @@ li:nth-child(odd){
 
 li:nth-child(even){
     background: url("img/shigoto_zaitaku_cat_woman.png");
-    width: 700px;
+    width: 350px;
     height: 190px;
     padding: 190px 20px 20px 20px;
     list-style: none;
