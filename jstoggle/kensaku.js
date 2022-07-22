@@ -183,7 +183,7 @@ btn.addEventListener('click',() => {
       if(k%2==0){
         html += '<tr><td>'+'<a href="'+ fmdata[i][1] + '/" target="_blank"><img src="images/'+ fmdata[i][0] + '" width="300px" height="200px"></a>'+'</td>';
       }else{
-        html += '<td>'+'<a href="'+ fmdata[i][1] + '/" target="_blank"><img src="'+ fmdata[i][0] + 'imases/" width="300px" height="200px"></a>'+'</td></tr>';
+        html += '<td>'+'<a href="'+ fmdata[i][1] + '/" target="_blank"><img src="images/'+ fmdata[i][0] + '" width="300px" height="200px"></a>'+'</td></tr>';
       }
       k+=1;
     }
